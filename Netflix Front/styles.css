@@ -1,0 +1,62 @@
+body, html{
+    height: 100%;
+}
+.bg-image{
+    background-image: url(https://th.bing.com/th/id/OIP.0u2ynz-XDDaq3suwHtC7eQHaEK?rs=1&pid=ImgDetMain);
+    
+  filter: blur(4px);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bg-text {
+    color: white;
+    font-weight: bold;
+    font: arial;
+    position: absolute;
+    top: 30%;
+    left: 21%;
+    text-align: center;
+
+  }
+img{
+    top: 4%;
+    width: 120px;
+    height: 50px;
+    padding-left: 100px ;
+    position: absolute;
+}
+#one{
+    font-size: 40px;
+}
+#two{
+    font-size:25px;
+}
+#three{
+    font-size: 10px;
+}
+#button1{
+    position: absolute;
+    left: 80%;
+    top: 40px;
+}
+#button2{
+    position: absolute;
+    left: 87%;
+    top: 40px;
+}
+.button {
+    background-color: rgb(183, 19, 19); /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+button:hover{
+    color: black;
+}
+button:active{
+    color: rgb(216, 16, 16);
+}
