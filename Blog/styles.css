@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.head{
+    width: 55%;
+    margin-left: 23%;
+    
+}
+h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+}
+img{
+    height: 300px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.body{
+    font-size: 25px;
+    font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+iframe{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
