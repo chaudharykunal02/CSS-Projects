@@ -46,28 +46,52 @@
     top: 200px;
     left: 100px;
     right: 280px;
+    backdrop-filter: blur(10px) saturate(75%);
+    padding: 20px 20px 20px 0px;
 }
 .two{
     background-color: rgba(0,0,0,0.3);
     color: rgba(0,0,0,0.7);
-    height: 200px;
+    height: 250px;
     margin: 10px 30px 10px 30px;
 }
-.two .photos{
-    padding: 22px;
+
+
+.shoe-image{
+    display: flex;
 }
+
+.names{
+    text-align: center;
+    border: #FFF;
+}
+
 .photos img{
-    height: 130px;
-    width: 100px;
+    background-color: white;
+    margin-left: 4px;
+    height: 170px;
+    width: 170px;
+    margin: 2px;
 }
-.photo .air{
-    display: block;
-}
-.trend{
-    padding-left: 20px;
+
+.two{
+    padding: 10px;
     padding-top: 10px;
     color: black;
     
+}
+
+#one-shoe{
+    border: 1px solid white;
+    background-color: #FFF;
+}
+#two-shoe{
+    border: 1px solid white;
+    background-color: #FFF;
+}
+#three-shoe{
+    border: 1px solid white;
+    background-color: #FFF;
 }
 
 #three{
@@ -83,4 +107,17 @@
 #three img{
     position: absolute;
     left: 850px;
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    border-radius: 100px;
+    margin: 0 50px;
+    box-shadow: 5px 5px 5px #888888;
+    
 }
+
+#three img:active{
+    transform: scale(1.5);
+    transform-origin: 100% 40%;
+}
+
