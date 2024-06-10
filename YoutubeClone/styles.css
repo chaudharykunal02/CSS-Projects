@@ -93,7 +93,7 @@ hr{
 }
 
 .videos{
-    background-color: bisque;
+    background-color: rgb(254, 254, 253);
     height: 100%;
     width: 100%;
     padding: 15px;
@@ -125,14 +125,14 @@ hr{
 
 .video-details{
     display: flex;
-    mat
 
 }
 
 .author img{
-    height: 50px;
-    width: 50px;
+    margin-top: 5px;
+    height: 30px;
+    width: 30px;
     border: 0px;
-    border-radius: 25px;
+    border-radius: 50px;
 }
 
